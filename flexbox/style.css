@@ -1,0 +1,27 @@
+body {
+    margin: 20px;
+}
+
+.heading {
+    font-size: 50px;
+    font-style: bold;
+    margin-bottom: 20px; 
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 10;
+    padding: 5px;
+    /* justify-content: space-evenly; */
+    /* flex-basis: 200px; */
+}
+
+.photo {
+    display: flex;
+    flex: 0 0 10;
+    height: 300px;
+    width: auto;
+    padding: 5px;
+    /* flex-basis: 200px; */
+}
