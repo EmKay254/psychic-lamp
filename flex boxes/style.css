@@ -1,0 +1,11 @@
+body {
+  margin: 20px;
+}
+
+.box-container {
+  display: flex;
+  border: 5px solid green;
+  background-color: #D0F2CE;
+  height: 500px;
+  
+}
