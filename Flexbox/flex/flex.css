@@ -1,0 +1,38 @@
+body {
+    background-color: lightgreen;
+    width: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex: 1;
+    height: 1000px;
+    width: 1000px;
+    border: 5px solid blue;
+    flex-wrap: wrap;
+    margin-bottom: auto;
+}
+
+.flex-container.square {
+    border: 0px solid peachpuff;
+}
+
+.square.one {
+    display: flex;
+    flex-grow: 2;
+    height: 600px;
+    width: 600px;
+    background-color: lightcoral;
+}
+
+.square.two {
+    height: 600px;
+    width: 400px;
+    background-color: lightblue; 
+}
+
+.square.three {
+    height: 400px;
+    width: 1000px;
+    background-color: lightslategray; 
+}

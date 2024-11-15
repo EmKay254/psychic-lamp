@@ -1,0 +1,260 @@
+* {
+    /* border: 4px solid blue; */
+    margin: 2px;
+}
+
+body {
+    display: flex;
+    width: 27.5cm;
+    height: 37cm;
+    border: 2px dashed blue;
+    padding-top: 2cm;
+    /* padding-right: 1.5cm; */
+}
+
+.font-page, .header {
+    display: flex;
+    /* border: 2px solid red; */
+    height: 6.2cm;
+    width: 26cm;
+    gap: 2px;
+    margin-bottom: 10px;
+}
+
+.header .header-block {
+    display: flex;
+}
+
+.header .logo {
+    /* border: 2px solid red; */
+    width: 13.5cm;
+    display: flex;
+    background-color: rgba(29, 42, 160, 0.856);
+}
+
+.logo img {
+    width: 9.7cm;
+    height: 5.8cm;
+    margin-right: auto;
+}
+
+.header-block .logo-details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.3cm;
+    padding-top: 10px
+}
+
+.logo-details .slogan {
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    width: 2.8cm;
+    margin-bottom: 20px;
+}
+
+.day-date .date {
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    transform: scale(1,2)
+}
+
+.day-date .month {
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+
+.day-date .day {
+    font-weight: bolder;
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.logo-details .logo-banner {
+    background-color: yellow;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: left;
+    padding: 5px;
+    transform: rotate(-15deg);
+    width: 5cm;
+}
+
+.header .my-gov {
+    border: 8px solid rgb(55, 56, 83);
+    width: 5.8cm;
+}
+
+.my-gov .my-gov-advert {
+    background-color: rgb(55, 56, 83);
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.my-gov .my-gov-banner {
+    background-color: rgb(255, 99, 60);
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.header .t_content {
+    /* border: 2px solid red; */
+    width: 6.7cm;
+    background-color: rgb(12, 184, 184);
+    padding: 10px 5px;
+    /* gap: 10px; */
+}
+
+.t_content .grid_header {
+    color: yellow;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.t_content .header_grid_content {
+    height: 4.2cm;
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    
+}
+
+.t_content .header_grid_page {
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.front-page .center-body {
+    display: flex;
+    height: 28cm;
+    width: 26cm;
+}
+
+.highlight {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    height: 11cm;
+    width: 21cm;
+    font-stretch: extra-expanded;
+}
+
+.highlight span.quote {
+    color: darkred;
+}
+
+.highlight p {
+    padding-top: 10px;
+    height: 1cm;
+    font-weight: bolder;
+    color: rgb(180, 126, 105);
+    font-size: 18px;
+    transform: scale(1,2);
+}
+
+.highlight h1 {
+    font-size: 90px;
+    text-align: start;
+    font-weight: bolder;
+}
+
+.highlight .t_content.two {
+    font-size: 27px;
+    text-align: justify;
+}
+
+span.medium-page-no {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.main-images {
+    display: flex;
+    gap: 2px;
+    height: 16.5cm;
+}
+
+.image img{
+    display: flex;
+    gap: 2px;
+    height: 16cm;
+    width:10.2cm;
+}
+
+.caption, strong {
+    font-size: xx-small;
+}
+
+span.source {
+    font-weight: bold;
+}
+
+.right-panel {
+    border-left: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 5cm;
+    margin-top: 13px;
+    padding-left: 5px;
+}
+
+.right-panel .column_row  {
+    border-bottom: 1px solid gray;
+}
+
+.column_row .block_header{
+    color: rgb(8, 117, 168);
+    font-weight: bold;
+    font-size: 15px;
+    font-stretch: condensed;
+    margin-bottom: 5px;
+}
+
+.column_row .block_image img{
+    height: 6.2cm;
+    width: 4cm;
+}
+
+.column_row .image_caption {
+    margin-bottom: 15px;
+}
+
+.column_row .block_content, .image_caption, .block_page {
+    font-size: xx-small;
+}
+
+.column_row .block_heading {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.column_row .block_content {
+    margin-bottom: 10px;
+}
+
+.column_row .block_page {
+    text-align: right;
+    font-weight: bold;
+}
+
+.column_row.last_row {
+    border-bottom: transparent;
+}
+
